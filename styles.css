@@ -4,9 +4,8 @@ body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-
 .hero-container{
-  background-color: rgb(37, 37, 37);
+  background-color: white;
   display: flex;
   height: 100vh;
   justify-content: flex-start;
@@ -46,9 +45,67 @@ body{
   font-size: 1.5rem;
   color: #00CBA9;
 }
+/*------------------------------ ABOUT ME ------------------------------------*/
 .about-me-container{
   background-image: url('./assets/wave.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 80vh;
+}
+.flex-cont{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5rem;
+}
+.about-me-img-wrapper{
+  margin-left: 8rem;
+}
+.about-me-heading-wrapper{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.about-me-img{
+  width: auto;
+  height: 350px;
+  box-sizing: border-box;
+}
+.about-me-heading-wrapper{
+  text-transform: uppercase;
+}
+.about-me-text-wrapper p{
+  font-size: 1.5rem;
+  width: 450px;
+  margin-right: 5rem;
+}
+.about-me-text-wrapper span{
+  font-size: 1rem;
+}
+.aboutme-btn-wrapper{
+
+}
+.aboutme-heading-h1{
+padding-top: 20px;
+}
+/* PROJECTS---------------------------------------------------------- */
+.projects-container{
+  background-color: pink;
+}
+.proj-flex-wrapper{
+  background-color: rgb(45, 177, 191);
+  display: flex;
+  justify-content: center;
+}
+.proj-heading{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.proj-img-wrapper{
+  
+}
+.proj-img{
+  width: 250px;
+  height: auto;
 }

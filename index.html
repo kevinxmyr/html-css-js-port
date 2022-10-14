@@ -21,46 +21,50 @@
   </head>
   <body>
     <!-- HERO -------------------------------------------------------------------------------->
-    <div class="hero-container">
+    <!-- <div class="hero-container">
       <div data-aos="fade-right" class="hero-wrapper">
         <p>Hi, my name is <span class="span-kevin">Kevin</span></p>
         <p>I'm a Web Developer.</p>
   
         <div class="hero-button-wrapper">
-          <a id="cta" class="button" href="#">Know More</a>
+          <a class="button" href="#">Know More</a>
+        </div>
+      </div>
+    </div> -->
+    
+    <!-- ABOUT ME --------------------------------------------------------------------------->
+    <!-- <div class="about-me-container">
+      <div class="about-me-heading-wrapper">
+        <h1 data-aos="fade-up class="aboutme-heading-h1">About Me</h1>
+      </div>
+
+      <div class="flex-cont">
+      <div data-aos="fade-right" class="about-me-img-wrapper">
+        <img class='about-me-img' src="./assets/kev.png" alt="profile-img" />
+      </div>
+      <div data-aos="fade-left" class="about-me-text-wrapper">
+        <p>
+          Hi! my name is Kevin, I am an Information Technology graduate,
+           an aspiring Web Developer. Currently taking up online course 
+           to expand my knowledge in Web Development.
+
+          <span>I ♥️ Music, Coffee & Technology.</span>
+        </p>
+        <div class="aboutme-btn-wrapper">
+          <button class="aboutme-btn">View Resume</button>
         </div>
       </div>
     </div>
-    
-    <!-- ABOUT ME --------------------------------------------------------------------------->
-    <div class="about-me-container">
-      <div class="about-me-heading-wrapper">
-        <h1>About Me</h1>
-      </div>
-      <div class="about-me-img-wrapper">
-        <!-- <img src="./assets/profile.jpg" alt="profile-img" /> -->
-      </div>
-      <div class="about-me-text-wrapper">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sequi
-          ipsam quas cum molestiae quo, corrupti dolor eius laboriosam omnis
-          cupiditate consequuntur asperiores possimus, minus sunt quia quam nam
-          error.
-        </p>
-      </div>
-      <div class="about-me-btn-wrapper">
-        <button class="aboutme-btn">View Resume</button>
-      </div>
-    </div>
+    </div> -->
     
     <!-- PROJECTS --------------------------------------------------------------------------->
     <div class="projects-container">
         <div class="projects-header-wrapper">
           <h1>Projects</h1>
         </div>
-  
+      <div class="proj-flex-wrapper">
         <div class="proj-items">
-          <h1>Project Title</h1>
+          <h2 class="proj-heading">Project Title</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
             suscipit molestiae perspiciatis eaque a vero facere veniam vitae
@@ -68,10 +72,11 @@
             omnis consequatur atque dolorum.
           </p>
           <div class="proj-img-wrapper">
-            <img src="#" alt="">
+            <img class="proj-img" src="./assets/profile.jpg" alt="">
           </div>
         </div> 
       </div>
+    </div>
       
       <!-- CONTACT ME --------------------------------------------------------------------->
       <div class="contact-container">
@@ -101,12 +106,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-           
-      const scrollToTop = document.querySelector('#cta');
-      
-      window.addEventListener('click', function(){
-        window.scrollTo({top: 1000, behavior: "smooth"})
-      })
     </script>
   </body>
 </html>

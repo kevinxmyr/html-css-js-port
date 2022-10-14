@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-container{
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+  padding-left: 7rem;
+}
+.span-kevin{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color:#00CBA9;
+}
+.hero-wrapper{
+  justify-items: flex-start;
+}
+.hero-wrapper p{
+  margin: 0 auto;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #3e3939;
+}
+.hero-button-wrapper{
+  background-color: transparent;
+  border: 2px solid #00CBA9;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.button{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #00CBA9;
+}
+.about-me-container{
+  background-image: url('./assets/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}

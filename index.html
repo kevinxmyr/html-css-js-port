@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href=".../icons8-internet-explorer-16.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Keveeno | Web Dev</title>
+  </head>
+  <body>
+    <!-- HERO -------------------------------------------------------------------------------->
+    <div class="hero-container">
+      <div data-aos="fade-right" class="hero-wrapper">
+        <p>Hi, my name is <span class="span-kevin">Kevin</span></p>
+        <p>I'm a Web Developer.</p>
+  
+        <div class="hero-button-wrapper">
+          <a id="cta" class="button" href="#">Know More</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ABOUT ME --------------------------------------------------------------------------->
+    <div class="about-me-container">
+      <div class="about-me-heading-wrapper">
+        <h1>About Me</h1>
+      </div>
+      <div class="about-me-img-wrapper">
+        <!-- <img src="./assets/profile.jpg" alt="profile-img" /> -->
+      </div>
+      <div class="about-me-text-wrapper">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sequi
+          ipsam quas cum molestiae quo, corrupti dolor eius laboriosam omnis
+          cupiditate consequuntur asperiores possimus, minus sunt quia quam nam
+          error.
+        </p>
+      </div>
+      <div class="about-me-btn-wrapper">
+        <button class="aboutme-btn">View Resume</button>
+      </div>
+    </div>
+    
+    <!-- PROJECTS --------------------------------------------------------------------------->
+    <div class="projects-container">
+        <div class="projects-header-wrapper">
+          <h1>Projects</h1>
+        </div>
+  
+        <div class="proj-items">
+          <h1>Project Title</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            suscipit molestiae perspiciatis eaque a vero facere veniam vitae
+            consequuntur accusamus facilis quisquam consectetur dolores, quia iure
+            omnis consequatur atque dolorum.
+          </p>
+          <div class="proj-img-wrapper">
+            <img src="#" alt="">
+          </div>
+        </div> 
+      </div>
+      
+      <!-- CONTACT ME --------------------------------------------------------------------->
+      <div class="contact-container">
+        <div class="contact-header">
+          <h1>Contact</h1>
+          <p>Contact Me!</p>
+        </div>
+        <div class="contact-btn">
+          <button>
+            Send E-mail
+          </button>
+        </div>
+      </div>
+      
+      <!-- FOOTER ------------------------------------------------------------------------->
+      <div class="footer">
+        <div class="contact-arrow">
+          <img src="#" alt="">
+        </div>
+        <div class="social-icons">
+          <img src="#" alt="LinkedIn">
+          <img src="#" alt="GitHub">
+          <img src="#" alt="Tiktok">
+        </div>
+      </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+           
+      const scrollToTop = document.querySelector('#cta');
+      
+      window.addEventListener('click', function(){
+        window.scrollTo({top: 1000, behavior: "smooth"})
+      })
+    </script>
+  </body>
+</html>
